@@ -1,0 +1,451 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {
+    "scrolled": true
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0.30000000000000004\n",
+      "1.82\n",
+      "True\n",
+      "False\n",
+      "predict output .....\n"
+     ]
+    }
+   ],
+   "source": [
+    "'''Question 1'''\n",
+    "print(0.1+0.2)\n",
+    "print(\"1.8\"+\"2\")\n",
+    "print(87>78)\n",
+    "print((0.1+0.2)==0.3)\n",
+    "print(\"predict \" \"output\" ,\".....\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "prints multiple  messages\n",
+      "\n",
+      "concatenate two strings\n",
+      "\n"
+     ]
+    },
+    {
+     "ename": "TypeError",
+     "evalue": "unsupported operand type(s) for +: 'int' and 'str'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[1;32m<ipython-input-26-1dda58c2c275>\u001b[0m in \u001b[0;36m<module>\u001b[1;34m\u001b[0m\n\u001b[0;32m      2\u001b[0m \u001b[0mprint\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;34m\"prints\"\u001b[0m\u001b[1;33m,\u001b[0m\u001b[1;34m\"multiple \"\u001b[0m\u001b[1;33m,\u001b[0m\u001b[1;34m\"messages\\n\"\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m      3\u001b[0m \u001b[0mprint\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;34m\"concatenate \"\u001b[0m\u001b[1;33m+\u001b[0m\u001b[1;34m\"two strings\\n\"\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[1;32m----> 4\u001b[1;33m \u001b[0mprint\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;36m5\u001b[0m\u001b[1;33m+\u001b[0m\u001b[1;36m6\u001b[0m\u001b[1;33m+\u001b[0m\u001b[1;34m\" adds two numbers\\n\"\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m: unsupported operand type(s) for +: 'int' and 'str'"
+     ]
+    }
+   ],
+   "source": [
+    "'''Question 2'''\n",
+    "print(\"prints\",\"multiple \",\"messages\\n\")\n",
+    "print(\"concatenate \"+\"two strings\\n\")\n",
+    "print(5+6+\" adds two numbers\\n\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "banana\n",
+      "c:\\naresh\\raju\\abhi\n"
+     ]
+    }
+   ],
+   "source": [
+    "'''Question 3'''\n",
+    "print(\"ba\"+\"na\"*2)\n",
+    "print(\"c:\\\\naresh\\\\raju\\\\abhi\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'g anytow'"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "'welcome to python traing program'[-4::-4]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'sscc'"
+      ]
+     },
+     "execution_count": 11,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "'A series of characters designated as one object known as a string'[2:18:5]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "taawkcbe  tgestrcoeeA\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('A series of charecters designated as one object known as a string'[::-1][4::3])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "-----------\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"-----------\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "ot emoc\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('Welcome to python traing program'[3:10][::-1])\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n",
+      "False\n"
+     ]
+    }
+   ],
+   "source": [
+    "str1=True\n",
+    "x=5 > 3\n",
+    "print(str1==x)\n",
+    "y=5 > 8\n",
+    "print(str1==y)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "num=7\n",
+    "Name = \"Michael jackson\"\n",
+    "sear_num = Name.find('el')\n",
+    "print(num > sear_num)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "WAS I TAC A RO RAC A TI SAW\n"
+     ]
+    }
+   ],
+   "source": [
+    "p_pharse=\"was it a car or a cat I saw\"\n",
+    "x=p_pharse.upper()[::-1]\n",
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "946\n"
+     ]
+    }
+   ],
+   "source": [
+    "A='1934567\\n'\n",
+    "n=A[1::2]\n",
+    "print(int(n))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['EKIL', 'GNIDAERPS', 'ROF', 'KCANK']"
+      ]
+     },
+     "execution_count": 19,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "fake_phrase = \"Fake news has a knack for spreading like wild fire\"\n",
+    "x=fake_phrase[16:40:].upper()[::-1]\n",
+    "x.split()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['Facebook', 'already', 'uses', 'Al', 'to', 'Filter', 'Fake', 'stories', 'from', 'the', 'feed', 'of', 'users']\n"
+     ]
+    }
+   ],
+   "source": [
+    "msg1=\" Facebook already uses Al to Filter Fake stories from the feed of users \"\n",
+    "print(msg1.split())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' rs ot'"
+      ]
+     },
+     "execution_count": 21,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "msg2 = \"welcome to sr engineering college\"\n",
+    "x=msg2.count(\"o\")     #x\n",
+    "y=msg2.count(\"r\")     #r\n",
+    "msg2[y**x:(x**y+x+y):][::-1]\n",
+    "msg2[2**3:(3**2+3+2):][::-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3"
+      ]
+     },
+     "execution_count": 22,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "msg2.count(\"o\")     #x"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2"
+      ]
+     },
+     "execution_count": 23,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "msg2.count(\"r\")    #r"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "num1,num2=\"94\",\"30\"\n",
+    "data=\"As per census 2011,Gender ratio of India in 943 females per 1000 males \"\n",
+    "num1+num2[0] in data"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "124\n",
+      "As per census 2011,Gender ratio of India in 9 None\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(data[:45],print(int(num1)+int(num2)))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "enter amount of water in kilograms 20\n",
+      "enter initial temperature of water in degree celsius 70\n",
+      "enter final temperature of water in degree celsius 100\n",
+      "energy required to heat water = 2510400.0 joules\n"
+     ]
+    }
+   ],
+   "source": [
+    "M= float(input('enter amount of water in kilograms '))\n",
+    "initialtemperature=float(input('enter initial temperature of water in degree celsius '))\n",
+    "finaltemperature=float(input('enter final temperature of water in degree celsius '))\n",
+    "Q = M*4184*(finaltemperature - initialtemperature)\n",
+    "print(f'energy required to heat water = {Q} joules')              "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Enter x value2\n",
+      "zzoooo\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=int(input('Enter x value'))\n",
+    "y=x*2\n",
+    "print('z'*x+'o'*y)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
